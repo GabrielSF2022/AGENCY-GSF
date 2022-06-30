@@ -10,3 +10,32 @@
 
     li
         list-style: none
+
+
+@mixin main-hover
+    transition: .3s
+
+    &:hover
+        color: $primary-color
+
+
+
+
+.btn
+    padding: .6rem 1rem
+    border: 1px solid $light-color
+    transition: .3s
+    border-radius: 5px
+    text-transform: uppercase
+    color: $light-color 
+
+    &:hover
+        border-color: $primary-color
+        color: $primary-color
+
+    &-primary
+        background-color: $primary-color
+        border-color: $primary-color
+
+        &:hover
+            background-color: transparent   
