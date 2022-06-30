@@ -33,6 +33,18 @@
   text-align: center;
 }
 
+.jobs-container .jobs-list .first-job {
+  background-size: cover;
+  background-position: center;
+}
+
+.jobs-container .jobs-list .first-job .job-card-title, .jobs-container .jobs-list .first-job .job-card-cover, .jobs-container .jobs-list .first-job .job-card-description {
+  opacity: 0;
+}
+.jobs-container .jobs-list .first-job:hover .job-card-title, .jobs-container .jobs-list .first-job:hover .job-card-cover, .jobs-container .jobs-list .first-job:hover .job-card-desription {
+  opacity: 1;
+}
+
 * {
   margin: 0;
   padding: 0;
